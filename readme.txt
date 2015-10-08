@@ -1,3 +1,3 @@
-readme
+Projekt címe:
 
-fnswuvfnwuifhai
+Projekt tagok:

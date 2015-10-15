@@ -1,0 +1,6 @@
+A feladatunk által androidba írnák egyfajta feladatkezelõ programot, ami akár a hétköznapi dolgainkkal foglalkozna. 
+Naptár szerûen fellehetne venni bele programokat, pl vásárlás, iskolai kötelezõ elõadások idõpontja stb, 
+és napról napra lehetne látni, hogy milyen elõre meghatározott programunk van.
+ Mivel meglehetne hozzá adni egy idõpontot, ez alapján a program tudna jelezni a felhasználónak, 
+ha valamit netalántán elfelejtene. Ha meg már teljesítettük az adott dolgot vagy feladatot, 
+akkor jelezzük a programnak és automatikusan eltünteti a még nem teljesített feladatok közül.

@@ -1,15 +1,26 @@
+Szoftver Követelmény Specifikáció
 Csoport neve: RFT "B"
 Feladat címe: Android Napló
 Csoport tagok:
-Almádi Péter
-Balogi Nimród
-Urbanics Balázs
-Goldman István
+Almádi Péter <dj.peat@gmail.com>
+Balogi Nimród <email@cim.hu>
+Urbanics Balázs <email@cim.hu>
+Goldman István <email@cim.hu>
+
+2015. Október x.
 
 Leírás:
-A feladatunk által androidba írnák egyfajta feladatkezelõ programot, ami akár a hétköznapi dolgainkkal foglalkozna. 
-Naptár szerûen fellehetne venni bele programokat, pl vásárlás, iskolai kötelezõ elõadások idõpontja stb, 
-és napról napra lehetne látni, hogy milyen elõre meghatározott programunk van.
- Mivel meglehetne hozzá adni egy idõpontot, ez alapján a program tudna jelezni a felhasználónak, 
+Egyfajta feladatkezelõ programot készítünk android alapokon, ami teendõk, feladatok nyilvántartására szolgál.
+Naptár szerûen fellehet venni bele programokat, pl vásárlás, iskolai kötelezõ elõadások idõpontja stb, 
+és napról napra lehet látni, hogy milyen elõre meghatározott programunk van.
+ Mivel meglehet hozzá adni egy idõpontot, ez alapján a program tud jelezni a felhasználónak, 
 ha valamit netalántán elfelejtene. Ha meg már teljesítettük az adott dolgot vagy feladatot, 
 akkor jelezzük a programnak és automatikusan eltünteti a még nem teljesített feladatok közül.
+Késõbb további funkciók hozzáadása várható.
+
+Funkciók:
+- Kategóriák felvétele, törlése, módosítása
+- Kategóriákon belüli feladatok felvétele, törlése, módosítása
+- Jelzések beállítása, feladatok idõponthoz rendelése
+- Az adatok szinkronizációja a felhasználó többi készülékére
+- Egyéb beállítások (kinézet, fontok, jelzõhang, jelzési idõ, etc)

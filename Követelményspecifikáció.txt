@@ -1,3 +1,12 @@
+Csoport neve: RFT "B"
+Feladat címe: Android Napló
+Csoport tagok:
+Almádi Péter
+Balogi Nimród
+Urbanics Balázs
+Goldman István
+
+Leírás:
 A feladatunk által androidba írnák egyfajta feladatkezelõ programot, ami akár a hétköznapi dolgainkkal foglalkozna. 
 Naptár szerûen fellehetne venni bele programokat, pl vásárlás, iskolai kötelezõ elõadások idõpontja stb, 
 és napról napra lehetne látni, hogy milyen elõre meghatározott programunk van.

@@ -1,0 +1,7 @@
+Sql adatszerkezet:
+- Tábla: mezõ1, mezõ2, mezõ3
+- Kategóriák: id, név, leírás
+- teendõk/feladatok: id, user, kategória, típus, név, leírás, status
+- típus: id, név
+- felhasználók: id, usernév, emailcím
+- jelzések: id, user, teendõ/feladat, idõ

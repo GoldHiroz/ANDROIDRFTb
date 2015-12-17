@@ -35,7 +35,24 @@ $sorok[] = $sor;
 }
 print json_encode($sorok);
 }
+else if ($muvelet =="del")
+{
+if (empty($_GET["catid"]))
+{
+die ("ERROR");
+}
+$catid = $_GET["catid"];
 
+$sql ="DELETE FROM kategoriak WHERE id =$catid";
+if (mysqli_query($kapcsolat, $sql))
+{
+print "OK";
+}
+else
+{
+print "ERROR";
+}
+}
 
 // A végén bezárjuk a kapcsolatot
 mysqli_close($kapcsolat);

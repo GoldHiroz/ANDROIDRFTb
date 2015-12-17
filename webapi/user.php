@@ -16,8 +16,6 @@ die ("ERROR");
 $nev = $_GET["nev"];
 $email = $_GET["email"];
 $sql ="INSERT INTO felhasznalok VALUES ('', '$nev', '$email');";
-print $sql;
-print "<br>";
 if (mysqli_query($kapcsolat, $sql))
 {
 print "OK";
@@ -25,7 +23,6 @@ print "OK";
 else
 {
 print "ERROR";
-print mysqli_error();
 }
 
 }

@@ -35,6 +35,24 @@ $sorok[] = $sor;
 }
 print json_encode($sorok);
 }
+else if ($muvelet =="del")
+{
+if (empty($_GET["userid"]))
+{
+die ("ERROR");
+}
+$userid = $_GET["userid"];
+
+$sql ="DELETE FROM felhasznalok WHERE id =$userid";
+if (mysqli_query($kapcsolat, $sql))
+{
+print "OK";
+}
+else
+{
+print "ERROR";
+}
+}
 
 
 // A végén bezárjuk a kapcsolatot

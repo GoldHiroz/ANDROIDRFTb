@@ -14,6 +14,4 @@ if (mysqli_connect_errno($kapcsolat))
    echo "Hiba a kapcsolódáskor: " . mysqli_connect_error();
 }
 
-// A végén bezárjuk a kapcsolatot
-mysqli_close($kapcsolat);
 ?>

@@ -25,7 +25,16 @@ else
 print "ERROR";
 }
 }
-
+else if ($muvelet =="show")
+{
+$sql = mysqli_query($kapcsolat, "SELECT * FROM kategoriak;");
+$sorok = array();
+while ($sor = mysqli_fetch_assoc($sql))
+{
+$sorok[] = $sor;
+}
+print json_encode($sorok);
+}
 
 
 // A végén bezárjuk a kapcsolatot
